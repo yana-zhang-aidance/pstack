@@ -1,8 +1,13 @@
 ---
 name: reflect
-description: Spawn three parallel review subagents over the active transcript, surface learnings, and route each to a concrete edit on an existing skill. Use when the user says reflect.
-disable-model-invocation: true
+description: Spawn three parallel review subagents over the active transcript, surface
+  learnings, and route each to a concrete edit on an existing skill. Use when the
+  user says reflect.
 ---
+## Codex host adaptation
+
+When running in Codex, read [references/codex.md](references/codex.md) before executing this skill. Its host mappings override Cursor-specific examples; higher-priority instructions still apply.
+
 
 # Reflect
 

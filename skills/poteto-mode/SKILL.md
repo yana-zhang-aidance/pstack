@@ -1,10 +1,16 @@
 ---
 name: poteto-mode
-description: poteto's agent style for concise, detailed responses, deliberate subagents, unslopped prose, simple code, and verified work. Use for poteto, /poteto-mode, or requests to work in this style.
-disable-model-invocation: true
-icon: crown
-color: yellow
+description: poteto's agent style for concise, detailed responses, deliberate subagents,
+  unslopped prose, simple code, and verified work. Use for poteto, /poteto-mode, or
+  requests to work in this style.
+metadata:
+  icon: crown
+  color: yellow
 ---
+## Codex host adaptation
+
+When running in Codex, read [references/codex.md](references/codex.md) before executing this skill. Its host mappings override Cursor-specific examples; higher-priority instructions still apply.
+
 
 # Poteto mode
 

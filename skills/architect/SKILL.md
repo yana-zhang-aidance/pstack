@@ -1,8 +1,14 @@
 ---
 name: architect
-description: "Sketch types, signatures, and module structure before code, then stay in the loop while implementation fills in. Use for /architect, 'architect this', 'design this', or non-trivial work where jumping to code would lock in the wrong shape."
-disable-model-invocation: true
+description: Sketch types, signatures, and module structure before code, then stay
+  in the loop while implementation fills in. Use for /architect, 'architect this',
+  'design this', or non-trivial work where jumping to code would lock in the wrong
+  shape.
 ---
+## Codex host adaptation
+
+When running in Codex, read [references/codex.md](references/codex.md) before executing this skill. Its host mappings override Cursor-specific examples; higher-priority instructions still apply.
+
 
 # Architect
 

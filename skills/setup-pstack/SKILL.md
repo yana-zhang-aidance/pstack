@@ -1,7 +1,14 @@
 ---
 name: setup-pstack
-description: Configure which models pstack uses per role and at what reasoning budget. Detects your available models and writes an always-applied rule that overrides the skill defaults. Use for /setup-pstack, "configure pstack models", "pstack budget", or changing pstack's model choices.
+description: Configure which models pstack uses per role and at what reasoning budget.
+  Detects your available models and writes an always-applied rule that overrides the
+  skill defaults. Use for /setup-pstack, "configure pstack models", "pstack budget",
+  or changing pstack's model choices.
 ---
+## Codex host adaptation
+
+When running in Codex, read [references/codex.md](references/codex.md) before executing this skill. Its host mappings override Cursor-specific examples; higher-priority instructions still apply.
+
 
 # Setup pstack
 

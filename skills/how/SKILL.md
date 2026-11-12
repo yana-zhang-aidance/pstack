@@ -1,8 +1,14 @@
 ---
 name: how
-description: "Use for \"how does X work\", code walkthroughs before changing something, and placement / ownership / layering questions (\"where should this live\", \"which package owns this\", \"is this the right layer\"). Explains subsystem architecture, runtime flow, onboarding mental models. Use why for motivation."
-disable-model-invocation: true
+description: Use for "how does X work", code walkthroughs before changing something,
+  and placement / ownership / layering questions ("where should this live", "which
+  package owns this", "is this the right layer"). Explains subsystem architecture,
+  runtime flow, onboarding mental models. Use why for motivation.
 ---
+## Codex host adaptation
+
+When running in Codex, read [references/codex.md](references/codex.md) before executing this skill. Its host mappings override Cursor-specific examples; higher-priority instructions still apply.
+
 
 # How
 

@@ -73,6 +73,10 @@ The mirror also carries two community fixes that aren't upstream yet:
 
 - `no-comments` keeps a comment about an outside rule (a dependency, platform, or protocol) when it can't check the rule, and marks it for review instead of deleting it. A rejected review no longer stops the whole run. ([#14](https://github.com/backnotprop/pstack/issues/14))
 - `statechart` runs on Windows: it no longer needs `/bin/sh`, reads TLC output with Windows line endings, and cleans up its temp folder after a killed run. Patch by [@yasuyuki](https://github.com/yasuyuki). ([#17](https://github.com/backnotprop/pstack/issues/17))
+
+For Codex, the core skills include a self-contained host adapter at `references/codex.md`, so selective skill installs retain the mapping. See [the Codex adapter](./docs/harness/codex.md) and [the inherited-model configuration example](./docs/harness/pstack-models.codex.example.md). Existing user model settings are not replaced.
+
+The local acceptance exercise covered read-only explanation, source-history reasoning, parallel workers, independent design candidates, isolated worktree implementation, latest-diff review, configuration writes, and a generated CLI verifier with positive and negative controls. It did not establish cross-model-family judging, nested delegation, full conversation-transcript auditing, or multi-day PR orchestration. Same-model independent review is reported explicitly.
 <!-- mirror:end -->
 
 ---
